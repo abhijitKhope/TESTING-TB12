@@ -21,6 +21,7 @@ public class Test1 {
 		  driver.manage().window().maximize();
 		  LoginPage lg=new LoginPage(driver);
 		  lg.loginInfo();
+		System.out.println("new update");
 		
 		
 		
