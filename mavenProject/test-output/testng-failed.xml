@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cjc.Tests.Test1">
+      <class name="com.project.Test.RegisterTest">
         <methods>
-          <include name="m11"/>
+          <include name="openBrowser11"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- com.cjc.Tests.Test1 -->
+      </class> <!-- com.project.Test.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
